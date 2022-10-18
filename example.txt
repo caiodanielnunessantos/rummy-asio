@@ -1,0 +1,35 @@
+<< Bem vindo ao jogo Mexe-Mexe. Digite seu nome para jogar.
+>> Nome
+<< Esse nome está em uso. Por favor, digite outro nome.
+>> Nome 2
+<< Bem vindo, Nome 2. Digite "ajuda" a qualquer momento para ver a lista de comandos disponíveis.
+>> ajudaa
+<< O comando "ajudaa" não é reconhecido. Digite "ajuda" a qualquer momento para ver a lista de comandos disponíveis.
+>> ajuda
+<< Mexe-Mexe versão 0.1.0
+<< Lista de comandos disponíveis:
+<< ajuda
+<<     Mostra essa mensagem de ajuda
+<< versão
+<<     Mostra a versão do programa
+<< criar-sala
+<<     Cria uma sala de jogo para jogadores ingressarem
+<<     Esse comando ingressa automaticamente na sala criada
+<< mostrar-salas
+<<     Mostra as salas disponíveis para ingresso
+<<     Não mostra as salas em que o jogo já começou
+<< ingressar-sala <nome-da-sala>
+<<     Ingressa numa sala para jogar
+<< iniciar-jogo
+<<     Inicia o jogo com os participantes ingressados
+<<     Só pode ser usado pelo criador da sala
+<<     Só pode ser usado quando há pelo menos dois jogadores na sala
+<< status-jogadores
+<<     Mostra a lista de jogadores em ordem de jogo
+<<     Mostra a quantidade de cartas de cada um
+<<     Realça o jogador que está com a jogada atual
+<< status-pilha
+<<     Mostra a quantidade de cartas na pilha
+<< status-mesa
+<<     Mostra as sequências de cartas dispostas na mesa
+<< pegar-carta
