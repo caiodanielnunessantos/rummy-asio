@@ -3,15 +3,5 @@
   "directory": "/home/caio/rummy-asio/build",
   "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/rummy-asio.dir/main.cpp.o -c /home/caio/rummy-asio/main.cpp",
   "file": "/home/caio/rummy-asio/main.cpp"
-},
-{
-  "directory": "/home/caio/rummy-asio/build",
-  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/rummy-asio.dir/server.cpp.o -c /home/caio/rummy-asio/server.cpp",
-  "file": "/home/caio/rummy-asio/server.cpp"
-},
-{
-  "directory": "/home/caio/rummy-asio/build",
-  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/rummy-asio.dir/game.cpp.o -c /home/caio/rummy-asio/game.cpp",
-  "file": "/home/caio/rummy-asio/game.cpp"
 }
 ]

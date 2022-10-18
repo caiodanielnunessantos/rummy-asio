@@ -1,18 +1,9 @@
-#include <string>
-#include <functional>
-#include <thread>
+#include "pch.h"
 
-#include <fmt/core.h>
-
-#ifndef ASIO_STANDALONE
-#define ASIO_STANDALONE
-#endif
-#include <asio/ip/tcp.hpp>
-#include <asio/buffer.hpp>
-#include <asio/io_context.hpp>
-#include <asio/read_until.hpp>
-
-#include "server.h"
+template <typename... T>
+static void put_to_client(asio::ip::tcp::socket& skt, std::string form, T... args) {
+    write(skt, buffer(fmt::format(fmt::runtime(form), args...)));
+}
 
 std::string get_line_from_client(asio::ip::tcp::socket& skt) {
     std::string line;
